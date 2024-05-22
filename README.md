@@ -2,38 +2,38 @@
 GraphVisualizer is a C++ program that generates visual representations of undirected graphs using the Fruchterman-Reingold algorithm.
 
 Overview
-This program takes a text file containing the description of an undirected graph as input and generates a graphical representation of the graph in BMP format. The vertices are represented as circles, and the edges as lines connecting the vertices.
+This program takes a text file containing the description of an undirected graph as input and generates a graphical representation of the graph in BMP format.
 
 Features
 Supports undirected graphs with up to 500 vertices.
 Uses the Fruchterman-Reingold algorithm for graph layout.
 Produces graphical representations with minimal edge crossings.
-Output images contain minimal overlap of vertices and edges.
-Vertices are labeled with numbers for identification.
 Customizable vertex and edge size.
 Usage
-Clone the repository to your local machine:
+Clone the repository:
 
 bash
 Copy code
-git clone https://github.com/your-username/GraphVisualizer.git
+git clone https://github.com/Hisoka742/GraphVisualizer.git
 Navigate to the project directory:
 
 bash
 Copy code
 cd GraphVisualizer
-Build the project using CMake:
+Build the project:
 
 go
 Copy code
 cmake .
 make
-Run the program with the input file containing the graph description:
+Run the program:
 
 css
 Copy code
 ./GraphVisualizer input.txt
 Replace input.txt with the path to your input file.
+
+View the output:
 
 The program will generate an output file named output.bmp in the current directory, containing the visual representation of the graph.
 
